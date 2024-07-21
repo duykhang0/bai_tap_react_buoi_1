@@ -1,0 +1,26 @@
+.header{
+    background-color: #353a40;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        font-size: 20px;
+        color: #fff;
+        p{
+
+        }
+        ul{
+            display: flex;
+            gap: 20px;
+            li{
+                a{
+                    color: #8e8f94;
+                }
+                a.active{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
